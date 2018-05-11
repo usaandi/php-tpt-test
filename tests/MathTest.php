@@ -20,6 +20,7 @@ final class MathTest extends TestCase
           array(0, 1, 1),
           array(1, 0, 1),
           array(1, 1, 2),
+          array(1, 3, 4),
         );
     }
 }
