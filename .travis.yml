@@ -1,0 +1,6 @@
+install:
+  - bundle install --path vendor/bundle
+  - npm install
+  script: bundle exec rake build && bundle exec rake builddoc
+  deploy:
+  skip_cleanup: true
