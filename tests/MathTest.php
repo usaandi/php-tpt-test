@@ -2,15 +2,8 @@
 
 use PHPUnit\Framework\TestCase;
 
-final class ExampleTest extends TestCase
+final class MathTest extends TestCase
 {
-     /**
-     * @group example
-     */
-    public function testSomething(): void {
-        $this->assertEquals("a", "a");
-    }
-
     /**
      * @group math
      */
